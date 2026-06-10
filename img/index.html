@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agro Forte</h1>
+        <p>Futuro Sustentável: Produção e Meio Ambiente</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#producao">Produção</a></li>
+                <li><a href="#meio-ambiente">Meio Ambiente</a></li>
+                <li><a href="#interativo">Interativo</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="sobre">
+        <h2>Sobre o Agro Forte</h2>
+        <p>O Agro Forte promove práticas agrícolas sustentáveis, integrando tecnologia e preservação ambiental.</p>
+    </section>
+
+    <section id="producao">
+        <h2>Produção Sustentável</h2>
+        <p>Focamos em produção eficiente sem comprometer os recursos naturais.</p>
+    </section>
+
+    <section id="meio-ambiente">
+        <h2>Meio Ambiente</h2>
+        <p>Nosso compromisso é com a preservação do solo, água e biodiversidade.</p>
+    </section>
+
+    <section id="interativo">
+        <h2>Simulador de Plantio Sustentável</h2>
+        <p>Escolha uma cultura e veja como ela impacta o meio ambiente:</p>
+        <select id="cultura">
+            <option value="">Selecione</option>
+            <option value="soja">Soja</option>
+            <option value="milho">Milho</option>
+            <option value="arroz">Arroz</option>
+            <option value="algodao">Algodão</option>
+        </select>
+        <button onclick="mostrarImpacto()">Ver Impacto</button>
+        <div id="resultado"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agro Forte. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
